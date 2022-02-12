@@ -7,7 +7,8 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
 - [Homebrew](https://brew.sh/) - Package manager for installing apps from terminal
 - [aText](https://www.trankynam.com/atext/) - Text automation (Not as good as [AHK](https://www.autohotkey.com/) but good enought for simple text snippets, like `;ra` → `→`)
     - Also check `aText/` dir in this repo
-- [AltTab](https://www.autohotkey.com/) - Bring back legendary Alt + Tab from Windows
+- [AltTab](https://www.autohotkey.com/) - Bring back legendary Alt + Tab from Windowsß
+	- If you want it to work like in Windows, do this: Preferences → Appearance → Hide apps with no open windows: ✓
 	- You can change to look of it quite a bit if you don't like the default look
 - [LinearMouse](https://linearmouse.org/) - Disable mouse scrolling acceleration, fix forward/backwards buttons for external mouses
 - [oh my zsh](https://ohmyz.sh/) - Improve your terminal experience
