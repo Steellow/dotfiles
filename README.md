@@ -29,3 +29,5 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
 	- Check `.hammerspoon/init.lua` in this repo
 	- This script unfortunately doesn't work with space or caps lock :/
 - [Hide/show dock faster](https://apple.stackexchange.com/a/34097/450173)
+- System preferences → Keyboard → Shortcuts → ✓ Use keyboard navigation to move focus between controls
+	- This way you can navigate better with tab
