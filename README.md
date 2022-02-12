@@ -16,6 +16,11 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
 - [Moom](https://manytricks.com/moom/) to get your windows in order
 	- [Reactangle](https://rectangleapp.com/) free alternative, but doesn't support custom layouts
 - [Shottr](https://shottr.cc/) - Superb screenshot tool
+- [Raycast](https://www.raycast.com/) - App launcher with tons of other features
+	- Recommended extensions:
+		- [Brew](https://www.raycast.com/nhojb/brew) - Search and install Homebrew formulae
+		- [Bitwarden Vault](https://www.raycast.com/pomdtr/bitwarden) - Quickly copy passwords from Bitwarden
+		- [VSCode Recent Projects](https://www.raycast.com/thomas/visual-studio-code) - Search and open recent projects from VSCode
 
 ## Settings
 
