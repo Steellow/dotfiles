@@ -23,3 +23,4 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
 - [Mapping Ctrl-hjkl to arrow keys on macOS](https://rarelyneeded.com/2019/11/20/mapping-ctrl-hjkl-to-arrow-keys-on-macos/)
 	- Check `.hammerspoon/init.lua` in this repo
 	- This script unfortunately doesn't work with space or caps lock :/
+- [Hide/show dock faster](https://apple.stackexchange.com/a/34097/450173)
