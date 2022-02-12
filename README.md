@@ -15,6 +15,7 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
 	- Also check [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) plugins
 - [Moom](https://manytricks.com/moom/) to get your windows in order
 	- [Reactangle](https://rectangleapp.com/) free alternative, but doesn't support custom layouts
+- [Shottr](https://shottr.cc/) - Superb screenshot tool
 
 ## Settings
 
@@ -22,6 +23,3 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
 - [Mapping Ctrl-hjkl to arrow keys on macOS](https://rarelyneeded.com/2019/11/20/mapping-ctrl-hjkl-to-arrow-keys-on-macos/)
 	- Check `.hammerspoon/init.lua` in this repo
 	- This script unfortunately doesn't work with space or caps lock :/
-- Copy screenshot of selection to clipboard with `ctrl + shift + opt + 4`
-	- I recommend to changing the shortcut to something easier (like print screen button)
-	- You can do this in System preferences → Keyboard → Shortcuts → Screenshots
