@@ -24,3 +24,4 @@ Download with `brew install atext`. Updating scripts & this readme when I feel l
 - `;b` → `•`
 - `; shr` → `¯\_(ツ)_/¯`
 - `;lenny` → `( ͡° ͜ʖ ͡°)`
+- `;tick` → `✓`
