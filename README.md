@@ -4,15 +4,15 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
 
 ## Software
 
-- [Homebrew](https://brew.sh/) - Package manager for installing apps from terminal
+### Quality of life
+
 - [aText](https://www.trankynam.com/atext/) - Text automation (Not as good as [AHK](https://www.autohotkey.com/) but good enought for simple text snippets, like `;ra` → `→`)
   - Also check [aText/](./aText/) dir in this repo
-- [AltTab](https://www.autohotkey.com/) - Bring back legendary Alt + Tab from Windowsß
+- [AltTab](https://alt-tab-macos.netlify.app/) - Bring back legendary Alt + Tab from Windows
   - If you want it to work like in Windows, do this: Preferences → Appearance → Hide apps with no open windows: ✓
   - You can change to look of it quite a bit if you don't like the default look
+  - ![How my AltTab looks like](./p)
 - [LinearMouse](https://linearmouse.org/) - Disable mouse scrolling acceleration, fix forward/backwards buttons for external mouses
-- [oh my zsh](https://ohmyz.sh/) - Improve your terminal experience
-  - Also check [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) plugins
 - [Moom](https://manytricks.com/moom/) to get your windows in order
   - [Reactangle](https://rectangleapp.com/) free alternative, but doesn't support custom layouts
 - [Shottr](https://shottr.cc/) - Superb screenshot tool
@@ -21,6 +21,15 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
     - [Brew](https://www.raycast.com/nhojb/brew) - Search and install Homebrew formulae
     - [Bitwarden Vault](https://www.raycast.com/pomdtr/bitwarden) - Quickly copy passwords from Bitwarden
     - [VSCode Recent Projects](https://www.raycast.com/thomas/visual-studio-code) - Search and open recent projects from VSCode
+
+### Terminal stuff
+
+- [Homebrew](https://brew.sh/) - Package manager for installing apps from terminal
+- [oh my zsh](https://ohmyz.sh/) - Improve your terminal experience
+  - Also check [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) plugin
+  - I use [powerlevel10k](https://github.com/romkatv/powerlevel10k) theme
+- [iTerm2](https://iterm2.com/) - Better terminal
+  - I use 'Solaried Dark' color preset (preinstalled)
 
 ## Settings
 
