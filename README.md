@@ -11,7 +11,6 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
 - [AltTab](https://alt-tab-macos.netlify.app/) - Bring back legendary Alt + Tab from Windows
   - If you want it to work like in Windows, do this: Preferences → Appearance → Hide apps with no open windows: ✓
   - You can change to look of it quite a bit if you don't like the default look
-  - ![How my AltTab looks like](./p)
 - [LinearMouse](https://linearmouse.org/) - Disable mouse scrolling acceleration, fix forward/backwards buttons for external mouses
 - [Moom](https://manytricks.com/moom/) to get your windows in order
   - [Reactangle](https://rectangleapp.com/) free alternative, but doesn't support custom layouts
