@@ -21,6 +21,8 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
     - [Brew](https://www.raycast.com/nhojb/brew) - Search and install Homebrew formulae
     - [Bitwarden Vault](https://www.raycast.com/pomdtr/bitwarden) - Quickly copy passwords from Bitwarden
     - [VSCode Recent Projects](https://www.raycast.com/thomas/visual-studio-code) - Search and open recent projects from VSCode
+- [Hammerspoon](https://www.hammerspoon.org/) - Automation stuff
+  - Check [.hammerspoon/](./.hammerspoon/)
 
 ### Terminal stuff
 
