@@ -1,27 +1,12 @@
 # aText scripts
 
-Download with `brew install atext`. Updating scripts & this readme when I feel like it 
+Download aText with `brew install atext`. Contains pretty much same stuff as [mtsknn's special_characters.ahk](https://github.com/mtsknn/AutoHotkey/tree/master/scripts/special_characters) script, there might be some of my own additions/changes.
 
-## Ääkköset
+## Additions
 
-- `g'` → `ä`
-- `g;` → `ö`
-
-## Arrows
-
-- `;ra` → `→`
-- `;la` → `←`
-- `;ua` → `↑`
-- `;da` → `↓`
-
-## Superscript
-
-- `;sup2` → `²`
-- Works for all numbers
-
-## Misc
-
-- `;b` → `•`
-- `; shr` → `¯\_(ツ)_/¯`
-- `;lenny` → `( ͡° ͜ʖ ͡°)`
 - `;tick` → `✓`
+
+## Changes
+
+- `h'` → `g'` (ä)
+- `h;` → `g;` (ö)
