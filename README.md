@@ -41,3 +41,7 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
 - [Hide/show dock faster](https://apple.stackexchange.com/a/34097/450173)
 - System preferences → Keyboard → Shortcuts → ✓ Use keyboard navigation to move focus between controls
   - This way you can navigate better with tab
+
+## Scripts
+
+- [Set default browser from command line](https://www.felixparadis.com/posts/how-to-set-the-default-browser-from-the-command-line-on-a-mac/)
