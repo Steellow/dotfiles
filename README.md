@@ -22,6 +22,7 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
     - [VSCode Recent Projects](https://www.raycast.com/thomas/visual-studio-code) - Search and open recent projects from VSCode
 - [Hammerspoon](https://www.hammerspoon.org/) - Automation stuff
   - Check [.hammerspoon/](./.hammerspoon/)
+- [eqMac](https://eqmac.app/) - System audio equalizer, but honesti I just use this to control digital output volume levels 😅
 
 ### Terminal stuff
 
