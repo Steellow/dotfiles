@@ -8,23 +8,17 @@ alias dbf='osascript ~/repos/misc/dotfiles/scripts/setDefaultBrowser.scpt firefo
 
 alias deploy='mvn -Pservlet clean package kehikko:deploy -DskipTests'
 
-# Functions
-grinda() {
-   dbc
-   open /Applications/Microsoft\ Teams.app --args -AppCommandLineArg
-   open /Applications/Cisco/Cisco\ AnyConnect\ Secure\ Mobility\ Client.app --args -AppCommandLineArg
-}
+# Git aliases
+alias resb='git fetch origin && git reset --hard origin/master'
+alias mp='git checkout master && git pull'
 
-420() {
-   dbf
-   pkill "Microsoft Teams"
-   pkill "Microsoft Outlook"
-   pkill "Google Chrome"
-   pkill "Cisco AnyConnect Secure Mobility Client"
-}
+# Functions
 
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 # Ruby
 export PATH=“/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.1.1/bin:$PATH”
+
+# Flutter
+export PATH="$PATH:~/dev/flutter/bin"
