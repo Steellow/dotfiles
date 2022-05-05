@@ -13,6 +13,9 @@ alias resb='git fetch origin && git reset --hard origin/master'
 alias mp='git checkout master && git pull'
 
 # Functions
+len() {
+	printf "$*" | wc -c
+}
 
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home)
