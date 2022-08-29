@@ -6,11 +6,12 @@ alias tree='ll --tree --level=4 --ignore-glob=.git --git-ignore'
 alias dbc='osascript ~/repos/misc/dotfiles/scripts/setDefaultBrowser.scpt chrome'
 alias dbf='osascript ~/repos/misc/dotfiles/scripts/setDefaultBrowser.scpt firefox'
 
-alias deploy='mvn -Pservlet clean package kehikko:deploy -DskipTests'
-
 # Git aliases
+alias subup='git submodule update --init --recursive'
 alias resb='git fetch origin && git reset --hard origin/master'
 alias mp='git checkout master && git pull'
+
+alias clean-downloads='find $HOME/Downloads/* -mtime +30 -exec rm -rf {} \;'
 
 # Functions
 len() {
