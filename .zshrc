@@ -10,6 +10,7 @@ alias dbf='osascript ~/repos/misc/dotfiles/scripts/setDefaultBrowser.scpt firefo
 alias subup='git submodule update --init --recursive'
 alias resb='git fetch origin && git reset --hard origin/master'
 alias mp='git checkout master && git pull'
+alias please='git push --force-with-lease'
 
 alias clean-downloads='find $HOME/Downloads/* -mtime +30 -exec rm -rf {} \;'
 
