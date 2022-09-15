@@ -1,0 +1,13 @@
+[includeIf "gitdir:~/workspaces/"]
+   path = ~/.gitconfig-work
+[push]
+	default = current
+	autoSetupRemote = true
+[init]
+	defaultBranch = master
+[alias]
+	fpull = !git fetch origin master && git reset --hard FETCH_HEAD
+	subup = git submodule update --init --recursive
+	resb = git fetch origin && git reset --hard origin/master
+	please = git push --force-with-lease
+	mp = git checkout master && git pull && subup
