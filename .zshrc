@@ -9,11 +9,11 @@ alias dbf='osascript ~/repos/misc/dotfiles/scripts/setDefaultBrowser.scpt firefo
 alias clean-downloads='find $HOME/Downloads/* -mtime +30 -exec rm -rf {} \;'
 alias clean-tmp='rm -rf $HOME/tmp/*'
 
-alias subup=git submodule update --init --recursive
-alias resb=git fetch origin && git reset --hard origin/master
-alias please=git push --force-with-lease
-alias mp=git checkout master && git pull && subup
-alias squash=git reset $(git merge-base master $(git branch --show-current))
+alias subup='git submodule update --init --recursive'
+alias resb='git fetch origin && git reset --hard origin/master'
+alias please='git push --force-with-lease'
+alias mp='git checkout master && git pull && subup'
+alias squash='git reset $(git merge-base master $(git branch --show-current))'
 
 # Functions
 len() {
