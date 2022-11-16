@@ -20,6 +20,7 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
     - [Brew](https://www.raycast.com/nhojb/brew) - Search and install Homebrew formulae
     - [Bitwarden Vault](https://www.raycast.com/pomdtr/bitwarden) - Quickly copy passwords from Bitwarden
     - [VSCode Recent Projects](https://www.raycast.com/thomas/visual-studio-code) - Search and open recent projects from VSCode
+    - [Obsidian](https://www.raycast.com/marcjulian/obsidian) - Open a specific vault from Raycast
 - [Hammerspoon](https://www.hammerspoon.org/) - Automation stuff
   - Check [.hammerspoon/](./.hammerspoon/)
 - [eqMac](https://eqmac.app/) - System audio equalizer, but honesti I just use this to control digital output volume levels 😅
@@ -34,6 +35,8 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
   - I use 'Solaried Dark' color preset (preinstalled)
 
 ## Settings
+
+> Probably outdated list :D
 
 - [Hide desktop icons](https://www.howtogeek.com/730231/how-to-hide-all-desktop-icons-on-mac/)
 - [Mapping Ctrl-hjkl to arrow keys on macOS](https://rarelyneeded.com/2019/11/20/mapping-ctrl-hjkl-to-arrow-keys-on-macos/)
