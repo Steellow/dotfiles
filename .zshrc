@@ -20,11 +20,3 @@ len() {
 	printf "$*" | wc -c
 }
 
-# Java
-export JAVA_HOME=$(/usr/libexec/java_home)
-
-# Ruby
-export PATH=“/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.1.1/bin:$PATH”
-
-# Flutter
-export PATH="$PATH:~/dev/flutter/bin"
