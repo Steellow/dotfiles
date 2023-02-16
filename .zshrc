@@ -20,3 +20,6 @@ len() {
 	printf "$*" | wc -c
 }
 
+newbranch() {
+   git stash && mp && git checkout -b $1 && git stash apply
+}
