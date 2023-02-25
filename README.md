@@ -49,3 +49,4 @@ Stuff I use on my MacBook. This is my first time using macOS so trying to gather
 ## Scripts
 
 - [Set default browser from command line](https://www.felixparadis.com/posts/how-to-set-the-default-browser-from-the-command-line-on-a-mac/)
+- Open your cron file with `crontab -e` and copy contents of [.crontab](./.crontab) there
