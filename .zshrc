@@ -30,3 +30,24 @@ newbranch() {
 aw() {
    adb shell input text "$*"
 }
+
+idea-font() {
+    local new_value="$1"
+    local xml_file_1="$HOME/Library/Application Support/JetBrains/IdeaIC2021.3/options/editor-font.xml"
+    local xml_file_2="$HOME/Library/Application Support/JetBrains/IdeaIC2021.3/options/other.xml"
+
+    if [[ ! -f "$xml_file_1" ]]; then
+        echo "Error: XML file '$xml_file_1' not found."
+        return 1
+    fi
+
+    if [[ ! -f "$xml_file_2" ]]; then
+        echo "Error: XML file '$xml_file_2' not found."
+        return 1
+    fi
+
+    sed -i '' -E 's/(<option name="FONT_SIZE" value=")[^"]+/\1'"$new_value"'/' "$xml_file_1"
+    sed -i '' -E 's/(<option name="fontSize" value=")[^"]+/\1'"$new_value"'/' "$xml_file_2"
+
+    osascript -e 'quit app "IntelliJ IDEA CE"' && open -a "Intellij IDEA CE"
+}
