@@ -1,5 +1,0 @@
-# Delete more than 7 day old downloads
-0 10 * * * find $HOME/Downloads/* -mtime +7 -exec rm -rf {} \;
-
-# Manage brew stuff
-0 10 * * * brew update && brew upgrade && brew cleanup

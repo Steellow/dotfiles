@@ -1,5 +1,10 @@
-[includeIf "gitdir:~/workspaces/"]
-   path = ~/.gitconfig-work
+[user]
+	email = github@hanki.dev
+	name = Hannes Kinnunen
+[includeIf "gitdir:~/work/"]
+	path = ~/.gitconfig-work
+[core]
+	autocrlf = input
 [push]
 	default = current
 	autoSetupRemote = true

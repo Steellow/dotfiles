@@ -63,4 +63,6 @@ These four hotstrings are the most important for me:
 | ;ua      | ↑        |
 | ;x       | ×        |
 | g;       | ö        |
+| G:       | Ö        |
 | g'       | ä        |
+| G"       | Ä        |
