@@ -1,10 +1,6 @@
 # Aliases
-alias ls='exa --all --group-directories-first --icons'
 alias ll='ls --long --header'
 alias tree='ll --tree --level=4 --ignore-glob=.git --git-ignore'
-
-alias dbc='osascript ~/repos/misc/dotfiles/scripts/setDefaultBrowser.scpt chrome'
-alias dbf='osascript ~/repos/misc/dotfiles/scripts/setDefaultBrowser.scpt firefox'
 
 alias clean-downloads='find $HOME/Downloads/* -mtime +30 -exec rm -rf {} \;'
 alias clean-tmp='rm -rf $HOME/tmp/*'
