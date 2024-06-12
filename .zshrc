@@ -13,6 +13,14 @@ alias squash='git reset $(git merge-base master $(git branch --show-current))'
 alias bub='current_branch=$(git rev-parse --abbrev-ref HEAD) && timestamp=$(date "+%Y.%m.%d-%H.%M") && backup_branch="${current_branch}_backup_${timestamp}" && git checkout -b "${backup_branch}" && git checkout "${current_branch}"'
 alias febase='git fetch && git rebase origin/master'
 
+# Java stuff
+export JAVA_11_HOME=`/usr/libexec/java_home -v 11`
+export JAVA_21_HOME=`/usr/libexec/java_home -v 21`
+
+alias java11='export JAVA_HOME=$JAVA_11_HOME;export PATH="$JAVA_HOME/bin:$PATH";java -version'
+alias java21='export JAVA_HOME=$JAVA_21_HOME;export PATH="$JAVA_HOME/bin:$PATH";java -version'
+
+export JAVA_HOME=$JAVA_21_HOME
 
 # Functions
 len() {
