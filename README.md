@@ -30,12 +30,19 @@ Stuff I use on my Mac. Might be outdated.
 
 - [Compact mode](https://support.mozilla.org/en-US/kb/compact-mode-workaround-firefox)
 
+## Magic commands
+
+- Disable accent character popup: `defaults write -g ApplePressAndHoldEnabled -bool false`
+- Hide desktop icons: `defaults write com.apple.finder CreateDesktop false`
+- Show/hide dock faster: `defaults write com.apple.dock autohide-time-modifier -float 0.15; killall Dock`
+
 ## Settings
 
-- [Hide desktop icons](https://www.howtogeek.com/730231/how-to-hide-all-desktop-icons-on-mac/)
 - Automatically hide and show the dock → On
-  - [Hide/show dock faster](https://apple.stackexchange.com/a/34097/450173)
 - Trackpad → Scroll & Zoom → Natural scrolling → Off
+- Keyboard →
+  - Key repeat rate: fast
+  - Delay until repeat: short
 - Finder
   - Settings → Advanced
     - Show all filename extensions → On
