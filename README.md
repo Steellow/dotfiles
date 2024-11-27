@@ -40,3 +40,5 @@ Stuff I use on my Mac. Might be outdated.
     - Show all filename extensions [x]
     - Remove items from the Trash after 30 days [x]
   - View → Show Path Bar
+- Settings
+  - Trackpad → Scroll & Zoom → Natural scrolling → Off
